@@ -1,0 +1,42 @@
+import java.util.Scanner;
+
+public class ArmStrong {
+    public static int getDigits(int n){
+        int count  = 0;
+        while(n>0){
+         int ld = n%10;
+         count++;
+         n = n/10;
+       }
+        return count;
+    }
+
+    public static boolean checkArmstrong(int n){
+        int d = getDigits(n);
+        int originalNum = n;
+        double sum  = 0;
+
+        while(n>0){
+        int ld = n%10;
+        sum = sum + Math.pow(ld,d);
+        n = n/10;
+        }
+        return sum == originalNum;
+        }
+
+
+    public static void main(String[] args) {
+
+    Scanner sc = new Scanner(System.in);
+        System.out.print("Check the number for Armstrong  :");
+        int n = sc.nextInt();
+
+        if (checkArmstrong(n)) {
+            System.out.println(n + " is an Armstrong number.");
+        } else {
+            System.out.println(n + " is NOT an Armstrong number.");
+        }
+        sc.close();
+    }
+}
+
