@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Rec_print5times {
+    public static void printName(int i,int n){
+        if(i>n){
+            return;
+        }
+        System.out.println("Pranay");
+        printName(i+1,n);
+    }
+
+    public static void main(String[] args) {
+        System.out.println("Print the no of times you have to print names");
+
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+
+        printName(1,n);
+    }
+}
