@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Btrack_Print_one_to_n {
+    public static void RecPrint(int i,int n){
+        if(i<1){
+            return;
+        }
+        RecPrint(i-1,n);
+        System.out.println(i);
+    }
+    public static void main(String[] args) {
+        System.out.print("Enter the number :");
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+
+        RecPrint(n,n);
+    }
+}
