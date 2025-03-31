@@ -7,6 +7,7 @@ Solution of all solved problem of leetcode
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Pranaychirde/Leetcode-/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [1878-check-if-array-is-sorted-and-rotated](https://github.com/Pranaychirde/Leetcode-/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 ## Two Pointers
 |  |
 | ------- |
