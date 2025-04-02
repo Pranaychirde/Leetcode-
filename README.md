@@ -7,6 +7,7 @@ Solution of all solved problem of leetcode
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Pranaychirde/Leetcode-/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0136-single-number](https://github.com/Pranaychirde/Leetcode-/tree/master/0136-single-number) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Pranaychirde/Leetcode-/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 ## Two Pointers
 |  |
@@ -33,4 +34,8 @@ Solution of all solved problem of leetcode
 |  |
 | ------- |
 | [1013-fibonacci-number](https://github.com/Pranaychirde/Leetcode-/tree/master/1013-fibonacci-number) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0136-single-number](https://github.com/Pranaychirde/Leetcode-/tree/master/0136-single-number) |
 <!---LeetCode Topics End-->
